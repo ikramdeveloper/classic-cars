@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Classic Cars Website</title>
+  </head>
+  <body>
+    <!-- menu -->
+    <div class="menu target">
+      <div class="menu-line menu-line-1"></div>
+      <div class="menu-line menu-line-2"></div>
+    </div>
+    <!-- end menu -->
+
+    <!-- navbar -->
+    <nav class="navbar target">
+      <a href="#home" class="navbar-link">Home</a>
+      <a href="#cars" class="navbar-link">cars</a>
+      <a href="#video-gallery" class="navbar-link">Video Gallery</a>
+      <a href="#image-gallery" class="navbar-link">image Gallery</a>
+      <a href="#contact" class="navbar-link">Contact</a>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- home -->
+    <div class="wrapper">
+      <section class="home target" id="home">
+        <h1 class="heading home-heading">Classic cars</h1>
+        <img
+          src="./images/car-section1.png"
+          alt="classic-car"
+          class="home-img"
+        />
+      </section>
+    </div>
+    <!-- end home -->
+
+    <!-- cars -->
+    <div class="wrapper">
+      <section class="cars target" id="cars">
+        <h1 class="heading cars-heading">Popular cars</h1>
+        <div class="cars-wrapper">
+          <div class="car">
+            <h2 class="car-name">Car Name</h2>
+            <img src="./images/car-1.jpg" alt="car" class="car-img" />
+            <h3 class="car-price">$300, 000</h3>
+            <button class="car-btn" type="button">See More</button>
+          </div>
+
+          <div class="car">
+            <h2 class="car-name">Car Name</h2>
+            <img src="./images/car-2.jpg" alt="car" class="car-img" />
+            <h3 class="car-price">$200, 000</h3>
+            <button class="car-btn" type="button">See More</button>
+          </div>
+
+          <div class="car">
+            <h2 class="car-name">Car Name</h2>
+            <img src="./images/car-3.jpg" alt="car" class="car-img" />
+            <h3 class="car-price">$150, 000</h3>
+            <button class="car-btn" type="button">See More</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- end cars -->
+
+    <!-- video gallery -->
+    <div class="wrapper">
+      <section class="video-gallery target" id="video-gallery">
+        <h1 class="heading video-gallery-heading">Videos Gallery</h1>
+        <div class="videos-wrapper">
+          <video
+            src="https://i.imgur.com/Psm4CrP.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+          <video
+            src="https://i.imgur.com/vB0Jvck.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+          <video
+            src="https://i.imgur.com/af2zPM5.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+        </div>
+
+        <div class="videos-wrapper">
+          <video
+            src="https://i.imgur.com/wdpur1E.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+          <video
+            src="https://i.imgur.com/P7gaTbc.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+          <video
+            src="https://i.imgur.com/EdeBBM4.mp4"
+            muted
+            loop
+            class="video"
+          ></video>
+        </div>
+      </section>
+    </div>
+    <!-- end video gallery -->
+
+    <!-- image gallery -->
+    <div class="wrapper">
+      <section class="image-gallery target" id="image-gallery">
+        <h1 class="heading image-gallery-heading">Image Gallery</h1>
+        <div class="gallery">
+          <div class="gallery-shelf"></div>
+          <img
+            src="./images/gallery-car-1.jpg"
+            alt="car"
+            class="gallery-img-1"
+          />
+          <img
+            src="./images/gallery-car-2.jpg"
+            alt="car"
+            class="gallery-img-2"
+          />
+          <img
+            src="./images/gallery-car-3.jpg"
+            alt="car"
+            class="gallery-img-3"
+          />
+        </div>
+
+        <div class="gallery">
+          <div class="gallery-shelf"></div>
+          <img
+            src="./images/gallery-car-4.jpg"
+            alt="car"
+            class="gallery-img-1"
+          />
+          <img
+            src="./images/gallery-car-5.jpg"
+            alt="car"
+            class="gallery-img-2"
+          />
+          <img
+            src="./images/gallery-car-6.jpg"
+            alt="car"
+            class="gallery-img-3"
+          />
+        </div>
+      </section>
+    </div>
+    <!-- end image gallery -->
+
+    <!-- contact -->
+    <div class="wrapper">
+      <section class="contact target" id="contact">
+        <h1 class="heading contact-heading">Contact Us</h1>
+        <form class="contact-form">
+          <input type="text" class="form-input" placeholder="your full name" />
+          <input type="email" class="form-input" placeholder="your email" />
+          <textarea class="form-input" placeholder="write message"></textarea>
+          <input type="subimit" class="form-btn" value="submit" />
+        </form>
+        <p class="copyright">Copyright &copy; Ikramdev All Rights reserved.</p>
+      </section>
+    </div>
+    <!-- end contact -->
+    <script src="./script.js"></script>
+  </body>
+</html>
